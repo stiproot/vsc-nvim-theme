@@ -5,80 +5,80 @@ colors.get_colors = function()
     if vim.o.background == 'dark' then
         mycolors = {
             vscNone = 'NONE',
-            vscFront = '#D4D4D4',
-            vscBack = '#1F1F1F',
+            vscFront = '#00FF41',  -- Matrix bright green for main text
+            vscBack = '#000000',   -- Pure black background
 
-            vscTabCurrent = '#1F1F1F',
-            vscTabOther = '#2D2D2D',
-            vscTabOutside = '#252526',
+            vscTabCurrent = '#000000',
+            vscTabOther = '#001100',
+            vscTabOutside = '#001a00',
 
-            vscLeftDark = '#252526',
-            vscLeftMid = '#373737',
-            vscLeftLight = '#636369',
+            vscLeftDark = '#001a00',
+            vscLeftMid = '#002200',
+            vscLeftLight = '#003300',
 
-            vscPopupFront = '#BBBBBB',
-            vscPopupBack = '#202020',
-            vscPopupHighlightBlue = '#04395E',
-            vscPopupHighlightGray = '#343B41',
+            vscPopupFront = '#00CC33',
+            vscPopupBack = '#001100',
+            vscPopupHighlightBlue = '#004400',
+            vscPopupHighlightGray = '#002200',
 
-            vscSplitLight = '#898989',
-            vscSplitDark = '#444444',
-            vscSplitThumb = '#424242',
+            vscSplitLight = '#004400',
+            vscSplitDark = '#002200',
+            vscSplitThumb = '#003300',
 
-            vscCursorDarkDark = '#222222',
-            vscCursorDark = '#51504F',
-            vscCursorLight = '#AEAFAD',
-            vscSelection = '#264F78',
-            vscLineNumber = '#5A5A5A',
+            vscCursorDarkDark = '#001100',
+            vscCursorDark = '#003300',
+            vscCursorLight = '#00AA33',
+            vscSelection = '#004400',
+            vscLineNumber = '#008822',
 
-            vscDiffRedDark = '#4B1818',
-            vscDiffRedLight = '#6F1313',
-            vscDiffRedLightLight = '#FB0101',
-            vscDiffGreenDark = '#373D29',
-            vscDiffGreenLight = '#4B5632',
-            vscSearchCurrent = '#515c6a',
-            vscSearch = '#613315',
+            vscDiffRedDark = '#330000',
+            vscDiffRedLight = '#440000',
+            vscDiffRedLightLight = '#FF3333',
+            vscDiffGreenDark = '#002200',
+            vscDiffGreenLight = '#004400',
+            vscSearchCurrent = '#006600',
+            vscSearch = '#004400',
 
-            vscGitAdded = '#81b88b',
-            vscGitModified = '#e2c08d',
-            vscGitDeleted = '#c74e39',
-            vscGitRenamed = '#73c991',
-            vscGitUntracked = '#73c991',
-            vscGitIgnored = '#8c8c8c',
-            vscGitStageModified = '#e2c08d',
-            vscGitStageDeleted = '#c74e39',
-            vscGitConflicting = '#e4676b',
-            vscGitSubmodule = '#8db9e2',
+            vscGitAdded = '#00FF41',
+            vscGitModified = '#00DD33',
+            vscGitDeleted = '#FF4444',
+            vscGitRenamed = '#00CC33',
+            vscGitUntracked = '#00BB33',
+            vscGitIgnored = '#555555',
+            vscGitStageModified = '#00DD33',
+            vscGitStageDeleted = '#FF4444',
+            vscGitConflicting = '#FF6666',
+            vscGitSubmodule = '#00AA33',
 
-            vscContext = '#404040',
-            vscContextCurrent = '#707070',
+            vscContext = '#003300',
+            vscContextCurrent = '#005500',
 
-            vscFoldBackground = '#202d39',
+            vscFoldBackground = '#002200',
 
-            vscSuggestion = '#6A6A6A',
+            vscSuggestion = '#006600',
 
-            -- Syntax colors
-            vscGray = '#808080',
-            vscViolet = '#646695',
-            vscBlue = '#569CD6',
-            vscAccentBlue = '#4FC1FF',
-            vscDarkBlue = '#223E55',
-            vscMediumBlue = '#18a2fe',
-            vscDisabledBlue = '#729DB3',
-            vscLightBlue = '#9CDCFE',
-            vscGreen = '#6A9955',
-            vscBlueGreen = '#4EC9B0',
-            vscLightGreen = '#B5CEA8',
-            vscRed = '#F44747',
-            vscOrange = '#CE9178',
-            vscLightRed = '#D16969',
-            vscYellowOrange = '#D7BA7D',
-            vscYellow = '#DCDCAA',
-            vscDarkYellow = '#FFD602',
-            vscPink = '#C586C0',
+            -- Syntax colors - Matrix green variations
+            vscGray = '#555555',
+            vscViolet = '#00AA33',     -- Convert to green
+            vscBlue = '#00DD33',      -- Convert to green
+            vscAccentBlue = '#00FF41', -- Bright matrix green
+            vscDarkBlue = '#004400',
+            vscMediumBlue = '#00BB33',
+            vscDisabledBlue = '#008822',
+            vscLightBlue = '#00FF41',  -- Bright matrix green
+            vscGreen = '#00CC33',     -- Standard green
+            vscBlueGreen = '#00DD33', -- Bright green
+            vscLightGreen = '#00FF41', -- Matrix bright green
+            vscRed = '#FF4444',       -- Keep red for errors
+            vscOrange = '#00BB33',    -- Convert to green
+            vscLightRed = '#FF6666',  -- Keep red for errors
+            vscYellowOrange = '#00AA33', -- Convert to green
+            vscYellow = '#00FF41',    -- Matrix bright green
+            vscDarkYellow = '#00DD33',
+            vscPink = '#00CC33',      -- Convert to green
 
             -- Low contrast with default background
-            vscDimHighlight = '#51504F',
+            vscDimHighlight = '#004400',
         }
     else
         mycolors = {
