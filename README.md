@@ -196,21 +196,6 @@ require("bufferline").setup({
 :lua require('vscode').load('dark')
 ```
 
-## 🍭 Extra folder
-
-- [Alacritty](https://github.com/alacritty/alacritty) color scheme
-- [Foot](https://codeberg.org/dnkl/foot) color scheme
-- [fzf](https://junegunn.github.io/fzf/) color scheme
-- [galaxyline.nvim](https://github.com/glepnir/galaxyline.nvim) theme
-- [Ghostty](https://ghostty.org/) color scheme
-- [i3](https://i3wm.org/) and [Sway](https://swaywm.org/) color scheme
-- [Kitty](https://sw.kovidgoyal.net/kitty/) color scheme
-- Linux console color scheme
-- [WezTerm](https://wezfurlong.org/wezterm/) color scheme
-- [Windows Terminal](https://github.com/microsoft/terminal) color scheme
-- [Xresources](https://wiki.debian.org/Xresources) color scheme
-- [zathura](https://pwmt.org/projects/zathura/) color scheme
-
 ## Something is broken but I know how to fix it!
 
 Pull requests are welcome! Feel free to send one with an explanation!
